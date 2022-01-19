@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Web Server</title>
+		<style>
+			* {
+				margin: auto;
+				padding: 0;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+			p {
+				font-style: italic;
+			}
+			#form {
+				width: 60%;
+				display: flex;
+				flex-direction: column;
+				/* align-items: center; */
+				justify-content: center;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>This is a web server I created</h1>
+		<p>This is a challenge by pesabank</p>
+		<div class="form-con">
+			<form id="form" action="/" method="post" enctype="application/json">
+				<p>Fill out the form below</p>
+				<label labelFor="firstname">First Name</label>
+				<input
+					type="text"
+					placeholder="First Name"
+					id="firstname"
+					name="firstName"
+				/>
+				<br />
+				<label labelFor="lastname">Last Name</label>
+				<input
+					type="text"
+					placeholder="Last Name"
+					id="lastname"
+					name="lastName"
+				/>
+				<br />
+				<button>Submit</button>
+			</form>
+		</div>
+		<!-- <script type="text/javascript" src="/script.js"></script> -->
+	</body>
+</html>
